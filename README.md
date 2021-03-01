@@ -26,3 +26,8 @@ drwxrwxr-x 14 root root 4096 11月 11 20:44 percona-xtrabackup-2.4-test
 9 man/man1/目录下的文件，全部cp -a进/usr/share/man/man1/下;  
 10 shell脚本示例: 见xtrabakcup.sh脚本  
 11 注意: xtrabackup工具只能运行在db server上或者slave节点上，不能运行在其他机器上，否认出现关于target_dir的报错;  
+12 MariaDB与MySQL版本比对适配详情:  
+```shell
+https://mariadb.com/kb/en/mariadb-vs-mysql-compatibility/
+```
+13 喜欢我，请关注我，给个小星星，谢谢!  
